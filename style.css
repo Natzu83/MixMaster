@@ -214,6 +214,7 @@ margin-bottom: 0.5rem;
     color: var(--white);
     padding: 6rem calc((100rw - 1100px) / 2);
     text-align: center;
+    padding-top: 4rem;
 }
 
 .memberships h1 {
