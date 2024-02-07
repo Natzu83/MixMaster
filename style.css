@@ -200,3 +200,9 @@ margin-bottom: 0.5rem;
     margin-right: 0.5rem;
     color: var(--red);
 }
+
+@media screen and (max-width: 768px) {
+    .features__container {
+        grid-template-columns: 1fr;
+    }
+}
