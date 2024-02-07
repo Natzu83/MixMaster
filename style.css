@@ -43,7 +43,7 @@
         overflow-y: hidden;
         overflow-x: hidden;
     }
-    
+
     .navbar__link {
         display: flex;
         align-items: center;
@@ -97,3 +97,5 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+/*!Section 1 */
