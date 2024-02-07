@@ -206,3 +206,43 @@ margin-bottom: 0.5rem;
         grid-template-columns: 1fr;
     }
 }
+
+/* Extra secion maybe membership area or more information */
+
+.memberships {
+    background: var(--black);
+    color: var(--white);
+    padding: 6rem calc((100rw - 1100px) / 2);
+    text-align: center;
+}
+
+.memberships h1 {
+    margin-bottom: 1rem;
+    font-size: clamp(2rem, 5vw, 3rem);
+    padding: 0 1rem;
+}
+
+.desc {
+    margin-bottom: 3rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    padding: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.card {
+    padding: 2rem;
+    min-height: 450px;
+    width: 325px;
+    background: var(--white);
+    color: var(--black);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
