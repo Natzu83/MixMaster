@@ -275,3 +275,27 @@ margin-bottom: 0.5rem;
 }
 
 /*Team section */
+.team {
+    padding: 8rem calc((100vw - 1100px) / 2);
+}
+
+.team__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto, 350px);
+}
+
+.team__card {
+    margin: 1rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.team__text {
+    padding: 1rem;
+}
+
+.team__text h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
