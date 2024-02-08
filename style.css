@@ -299,3 +299,23 @@ margin-bottom: 0.5rem;
     margin-bottom: 1rem;
     font-size: 3rem;
 }
+
+.team__desc {
+    font-size: clamp(1rem, 3vw, 1.3rem);
+    line-height: 1.4;
+}
+
+.team__card p {
+    position: absolute;
+    bottom: 30px;
+    color: var(--white);
+    left: 25px;
+    font-size: 3rem;
+}
+
+.team__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
