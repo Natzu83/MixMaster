@@ -1,1 +1,5 @@
-Placeholder
+export const Login = () => {
+    return {
+        <>Login</>
+    }
+}
