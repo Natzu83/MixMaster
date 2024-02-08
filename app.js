@@ -26,3 +26,7 @@ gsap.from('.animate-services', {
 gsap.from('.animate-img', {
     scrollTrigger: '.animate-services', duration: 1.2, opacity: 0, x: -200,
 });
+
+gsap.from('.animate-card', {
+    scrollTrigger: '.animate-card', duration: 0.5, opacity: 1, x: -150, stagger: 0.12
+});
