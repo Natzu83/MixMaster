@@ -28,5 +28,17 @@ gsap.from('.animate-img', {
 });
 
 gsap.from('.animate-card', {
-    scrollTrigger: '.animate-card', duration: 0.5, opacity: 1, x: -150, stagger: 0.12
+    scrollTrigger: '.animate-card', duration: 1, opacity: 0, y: -150, stagger: 0.3, delay: 0.5
+});
+
+gsap.from('.animate-card2', {
+    scrollTrigger: '.animate-card2', duration: 1, opacity: 0, y: -150, stagger: 0.1, delay: 0.2
+});
+
+gsap.from('.animate-team', {
+    scrollTrigger: '.animate-team', duration: 1, opacity: 0, y: -150, stagger: 0.3, delay: 0.2
+});
+
+gsap.from('.animate-email', {
+    scrollTrigger: '.animate-email', duration: 0.8, opacity: 0, y: -150, stagger: 0.25, delay: 0.4
 });
