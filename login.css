@@ -1,29 +1,21 @@
-// Import necessary React components and hooks
+// Login.jsx
 import React, { useState } from 'react';
+import './login.css'; // Import the CSS file for styling
 
-// Create a functional component for the login page
 const LoginPage = () => {
-  // State to manage user inputs (username and password)
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  // Function to handle form submission
   const handleLogin = (e) => {
     e.preventDefault();
-
-    // You can add authentication logic here (e.g., check credentials with a backend server)
-    // For simplicity, let's just log the credentials for now
     console.log('Username:', username);
     console.log('Password:', password);
-
-    // You can redirect the user to another page upon successful login
-    // For simplicity, let's just clear the form inputs
     setUsername('');
     setPassword('');
   };
 
   return (
-    <div>
+    <div className="login-container"> {/* Use a class for styling */}
       <h1>Login Page</h1>
       <form onSubmit={handleLogin}>
         <label>
